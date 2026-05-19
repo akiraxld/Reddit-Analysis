@@ -1,0 +1,10 @@
+nltk
+torch
+sentence-transformers
+textblob
+nrclex
+scikit-learn
+hdbscan
+umap-learn
+plotly
+openai
