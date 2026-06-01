@@ -106,7 +106,7 @@ Without a key the app works fully — AI buttons are simply hidden.
 
 ## How the parser works
 
-Reddit's default JSON endpoint returns ~25–200 comments. This app does better:
+Reddit's default JSON endpoint returns ~25-1000 comments. This app does better:
 
 1. Fetches with `?limit=500&depth=10` to maximize the initial payload
 2. Collects all `"more"` continuation tokens from the comment tree
